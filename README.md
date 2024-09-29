@@ -8,9 +8,26 @@ To bring the required design to life and ensure seamless responsiveness across v
 
 ## Tech Stack
 - React
+- Vite
 - Tailwind CSS
 - TypeScript
 - Storybook (for component isolation)
 
 ## How to Run
 1. Clone the repository:
+git clone https://github.com/NavyNeb/frontend_assessment.git
+
+2. Install dependencies:
+npm install or yarn install
+
+3. Run the development server:
+npm run dev or yarn dev
+
+4. Open the project at `http://localhost:5173/`.
+
+## Live Demo
+You can view the live demo at [https://frontend-assessment-sage.vercel.app/].
+
+## Storybook
+Run Storybook to view isolated components:
+npm run storybook
