@@ -1,0 +1,13 @@
+#root {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  #root {
+    padding: 8px;
+  }
+}
+
