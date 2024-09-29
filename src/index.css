@@ -21,3 +21,9 @@
   font-family: "Montserrat";
   src: url("./assets/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
 }
+
+@layer components {
+  .col-flex {
+    @apply flex-1 flex flex-col space-y-4;
+  }
+}

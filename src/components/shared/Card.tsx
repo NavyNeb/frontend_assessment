@@ -1,13 +1,15 @@
 import React from 'react';
 
 type Props = {
-    children: React.ReactNode
+    children: React.ReactNode;
 }
 
-const Card = ({ children }: Props) => {
+const Card: React.FC<Props> = ({ children }) => {
   return (
-    <div className='bg-white rounded shadow-lg shadow-[#00000010] p-4 lg-desktop:pr-[35px] max-desktop:pr-[70px]' >{children}</div>
-  )
+    <article className='bg-white rounded shadow-lg shadow-[#00000010] p-4 lg-desktop:pr-[35px] max-desktop:pr-[70px]'>
+      {children}
+    </article>
+  );
 }
 
-export default Card
+export default Card;
